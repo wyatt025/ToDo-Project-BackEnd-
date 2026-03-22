@@ -7,6 +7,7 @@ const { Pool } = require ('pg')
         database: process.env.DB_NAME,
         password: process.env.DB_PASSWORD,
         port: process.env.DB_PORT,
+        ssl: process.env.SSL
     })
 
 const query = (sql,values=[]) => {
