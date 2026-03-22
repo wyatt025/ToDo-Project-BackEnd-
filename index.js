@@ -1,4 +1,4 @@
-require('dotenv').config({ path: './port.env' });
+require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
 const {todoRouter} = require('./routes/todo.js');
